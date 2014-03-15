@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jgirvin.com  - My Own Cloud </title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel=”alternate” type=”application/rss+xml” title=”Jgirvin.com - Software Developer in Brisbane, Australia” href=”http://jgirvin.com/rss.xml” />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <h1><a href="http://jgirvin.com" title="jgirvin.com">Josh Girvin</a></h1>
+      <h2>flipping bits, writing code</h2>
+    </div>
+<div id="post">
+  
+  <div id="post-header"><h3><a href="/2013/04/29/my-own-cloud/">My Own Cloud</a></h3><span class="date">29/04/2013</span></div>
+
+
+
+
+  
+<p>I have moved away from the “cloud” as it is basically known, and towards the “own cloud”, if you will. What that means is that I host web applications that hold my data <em>myself</em>, as much as possible. There are a number of reasons for this, but the primary one is of data ownership.</p>
+
+<p>I want to own my own data. Sure, there are a lot of things on the web that I simply can’t have control over (such as what Facebook does with my data; what Google and other ad networks track) – but I can attempt to take back as much as possible. I’m not a big believer in ad-blocking, and will readily admit that advertising is needed to keep some of the web free: however, my personal data should be off-limits, and frankly there are a number of companies that I don’t trust to be respectful stewards of it.</p>
+
+<p>Enough politicking however: Let’s get down to how I’ve done it!</p>
+
+<h4 id="the_vps">The VPS</h4>
+
+<p>Everything I use is hosted on a $20/month VPS from <a href="http://intovps.com/">IntoVPS</a>. I have nothing but good things to say about them: their customer service is absolutely excellent, their prices are quite competetive, and the biggest kicker: I’m yet to find a VPS that gives you anywhere near as much storage space as they do for the money! 60GB is more than enough for my needs personally.</p>
+
+<h4 id="dropboxexchangegoogle_music">Dropbox/Exchange/Google Music</h4>
+
+<p>The piece of software I have chosen to replace these tools is a part of the KDE project, oddly enough. It’s a web app (written in PHP) called <a href="http://owncloud.org/">ownCloud</a>, and honestly is quite powerful. It has great desktop sycning support through their client (<em>mirall</em>), and mobile support is there.</p>
+
+<p>The mobile applications for ownCloud do cost a few dollars, and I wish that the Android client was better, however I really like the idea of giving away the base software free and open source, and charging for a client. It means that if you were so inclined, you can go and write your own client with no issues; supporting the project is as simple as purchasing the mobile client. I think it’s a great trade-off.</p>
+
+<p>Contacts and Calendar sync is done through CalDAV and CardDAV respectively, which the iPhone supports out of the box, and Android is easy enough to setup via a few small utilities in the Play Store. I also replace Exchange’s Notes sync with a free Notes plugin for ownCloud. Easily installed through the Admin console of the application, it’s what I use to write my blog drafts, keep recipes, and take random scribbles throughout the day! The best part of the Notes plugin is that the notes themselves are just Markdown <code>.txt</code> files stored in the filesytem and can be synced and edited via the standard ownCloud client.</p>
+
+<p>Google Music is replaced by the fact that ownCloud has an Ampache server built right in. You can either stream any music uploaded through the web application, or get any of the numerous Ampache clients for the device of your choice. Personally, I still use my iPod Nano more, but it’s nice to be able to listen to my music collection at work without stressing about having to cart my 40Gb of music around.</p>
+
+<p>You can even use it as a Picasa replacement with the built-in picture gallery. It needs a bit of lovin’, but I plan on having a hack away at it in the future myself.</p>
+
+<p>All files uploaded can be shared with a public or private URL if needed. It’s really quite excellent, and stable as a rock for me!</p>
+
+<h4 id="github">GitHub</h4>
+
+<p>So, I use Git for most of my software development, and GitHub is the way to go normally for collaboration. The problem is, I do a lot of private contracting and experimental work that I don’t really want others to see (yet!). So, how do you get around this? <a href="http://gitlab.org/">GitLab</a> is my choice. It’s a Ruby on Rails application that replicates a lot of GitHubs features, and is very powerful. I’m not going to go into everything it can do here: check out the website. It was painful to install, but well worth it in my opinion.</p>
+
+<h4 id="whats_missing">What’s Missing?</h4>
+
+<p>Now, the big one I haven’t replaced yet is Google Apps for Domains (I’ve got the grandfathered free tier still). Of course, between ownCloud and a Dovecot/Postfix server, I should be sweet. Roundcube can even be integrated into ownCloud if needed. The problem is: I really suck at administrating email servers. It’s a curse.</p>
+
+<p>OwnCloud really is an excellent tool, and GitLab is brilliant itself. Between these (and a boat load of plugins) I’ve reclaimed most of my data, and really not lost any of the features that use anyway. Give it a try, and let me know how you go on <a href="https://twitter.com/girvo">twitter</a>, and maybe some more suggestions for other apps I should try myself!</p>
+
+</div>
+    <div id="blog-footer">
+      <div class="left">
+        <h2>Latest Articles</h2>
+        <ul>
+          
+          <li><a href="/2013/10/14/drupals-casual-audience/">Drupal, Engineering, And PHP's Casual Audience</a></li>
+          
+          <li><a href="/2013/08/30/making-a-game/">Sex, Murder, Drugs and Games</a></li>
+          
+          <li><a href="/2013/05/13/transactly/">Transactly, Or I'm Crazy And Want To<br/>Make A Startup</a></li>
+          
+          <li><a href="/2013/04/29/my-own-cloud/">My Own Cloud</a></li>
+          
+          <li><a href="/2013/04/28/hello-world/">Hello, World!</a></li>
+          
+        </ul>
+        <h4><a href="#">View All Articles ...</a></h4>
+      </div>
+      <div class="right">
+        <h2><a href="/about">About Me</a></h2>
+        <p>Josh Girvin. Software Engineer. Brisbane, Australia</p>
+        <ul>
+          <li><a href="#"><img src="/img/mail.png" />josh@jgirvin.com</a></li>
+          <li><a href="https://twitter.com/#!/girvo"><img src="/img/twitter.png" />@girvo</a></li>
+          <li><a href="github"><img src="/img/github.png" />Girvo</a></li>
+          <li><a href="http://jgirvin.com/rss.xml"><img src="/img/rss.png" />RSS</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="page-footer">
+      <div class="content">
+        &copy; 2013, Josh Girvin. All opinions expressed are my own, and not representative of my employer
+      </div>
+  </div>
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40505226-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

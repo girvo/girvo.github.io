@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>Jgirvin.com - Flippin' Bits and Slinging Code</title>
+    <link>http://jgirvin.com.com/</link>
+    <atom:link href="http://jgirvin.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>My tech talk and general ramblings. Software developer in Brisbane, Australia</description>
+    <language>en-us</language>
+    <pubDate>Sat, 15 Mar 2014 18:04:30 EST</pubDate>
+    <lastBuildDate>Sat, 15 Mar 2014 18:04:30 EST</lastBuildDate>
+
+    
+      <item>
+        <title>Drupal, Engineering, And PHP's Casual Audience</title>
+        <link>http://jgirvin.com/2013/10/14/drupals-casual-audience/</link>
+        <pubDate>Mon, 14 Oct 2013 00:00:00 EST</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://jgirvin.com/2013/10/14/drupals-casual-audience/</guid>
+        <description>
+&lt;p&gt;First, a confession: I &lt;em&gt;like&lt;/em&gt; PHP. Really, I do. I’m sure you’ve all seen the infamous “A Fractal Of Bad Design” article, and while a lot of the gripes have a decent basis in fact, a lot of it really just doesn’t matter in the day to day. With the release of PHP 5.4, the rapid adoption of Composer, the amazing site &lt;a href=&quot;http://packagist.org&quot;&gt;Packagist&lt;/a&gt;, and the RFC process finally picking up some awesome features (that may be late, but at least they are here): PHP is growing up.&lt;/p&gt;
+
+&lt;p&gt;This is a good thing. It’s a language that has been (fairly, and unfairly) derided over the years for various reasons, but despite all the technical and philosophical whinging is still one of the most used (if not &lt;em&gt;the&lt;/em&gt; most used) languages for Web Development out there. One of the key reasons for this is the “CMS” &lt;strong&gt;Drupal&lt;/strong&gt;. You’ve likely come across it if you’ve done any sort of web development over the past 5 years or so. It’s a huge project, that allows those without a BCompSci degree to whip up great (and complex, if need be) dynamic websites in a rapid timescale.&lt;/p&gt;
+
+&lt;p&gt;The thing is, Drupal hasn’t ever been the pincale of “best practices”. Relying on it’s… &lt;em&gt;interesting&lt;/em&gt; “module” system, lots of global variables, “hooks” and other curious design choices, it was very much a product of it’s time. However, for a lot of the users of Drupal itself this didn’t matter: they could learn enough PHP to get by, and hack up what is needed (similar to how WordPress development by users goes, actually) to get it to work. As an aside, for myself I struggled with it; coming from a more “traditional” development background, focused on good seperation of concerns and DRY patterns, I really struggled to wrap my head around it.&lt;/p&gt;
+
+&lt;p&gt;With the upcoming Drupal 8 however, this is changing. There is only about 25% lines of code left that are original “Drupal” core code. They’ve embraced Composer, PSR-0, and the Symfony components (which I must say are quite awesome to work with!). An actual CMS, built on good development techniques, with decoupled reusable components and a plan to integrate as much as possible. To me, this is only a good thing.&lt;/p&gt;
+
+&lt;p&gt;Others, however, disagree with me. &lt;a href=&quot;http://www.jenlampton.com/blog/introducing-backdrop-cms-drupal-fork&quot;&gt;Backdrop&lt;/a&gt; is a planned fork of Drupal, specifically to shun this upcoming change, to keep the old architecture and get rid of “best practices” that Drupal is trying to embrace. Now, I can totally get &lt;em&gt;why&lt;/em&gt; they’d want to do this: Drupal has a huge entrenched user base, and to be honest, it’s mostly made up of fly-by-nighters who know enough PHP, HTML and JavaScript to be dangerous. These people are what have made Drupal’s conquering of the PHP CMS world possible… but are they the correct target market?&lt;/p&gt;
+
+&lt;p&gt;I can completely understand why the fork is considered needed – throwing away all the knowledge that this group of people have obtained seems crazy. There is value in a supremely stable API (look at large projects to get an idea of that), but I can’t help but wonder whether it’s such a good thing to be tied to an API and way of thinking that is years outdated, and will only hold Drupal back moving into the future? I think it may be better for this short-term pain, for some serious long-term gain.&lt;/p&gt;
+
+&lt;p&gt;I feel that those who are freaking out about throwing away all their hard work learning how to program Drupal as “non-developers” are right to be upset, but I also feel like it’s entirely the right move for Drupal to go down. Those who are worried can at least rest assured that Drupal 7 will continue to work for the forseeable future; but I implore them to get comfortable with Drupal 8.&lt;/p&gt;
+
+&lt;p&gt;Drupal 8’s move to a sane, well-planned architecture will reward those who take the time to learn it far more than Drupal 7 ever will. The concepts may seem foreign to those who aren’t traditional software engineers, but these concepts exist for a reason; frankly, I feel like those “not-a-devs” will be able to learn the new system &lt;em&gt;far faster&lt;/em&gt; than they ever learnt Drupal 7’s mishmash of ideas.&lt;/p&gt;
+
+&lt;p&gt;With Drupal 8, I think that the pain involved will lose them some users. This is unavoidable. If you’re one of those users, just hold on – give it a try before you write it off. You’ll not only be learning skills that are transferable far outside of Drupal, but I’m certain you’ll find that this will be one of the final times you’ll have to go through this with Drupal.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Sex, Murder, Drugs and Games</title>
+        <link>http://jgirvin.com/2013/08/30/making-a-game/</link>
+        <pubDate>Fri, 30 Aug 2013 00:00:00 EST</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://jgirvin.com/2013/08/30/making-a-game/</guid>
+        <description>
+&lt;p&gt;I have an idea. It’s an idea I’ve been working on for quite a while now, and it is beginning to take shape, but I don’t think I am allowed to bring my idea to life. Now that sounds weird, right? Censorship isn’t something we are usually okay with, as a free society, and yet in the games industry, it’s par for the course.&lt;/p&gt;
+
+&lt;p&gt;Picture this: a first-person shooter-slash-adventure game, based in a city. So far, so sort-of-GTA, right? Here’s the kicker: it’s about drug addiction, the underbelly of society and what it’s like to be dragged kicking and screaming down into it.&lt;/p&gt;
+
+&lt;h2 id=&quot;the_game&quot;&gt;The Game&lt;/h2&gt;
+
+&lt;p&gt;This is not a game that glorifies drugs. This is not a game where shooting up some speed makes you “faster”, or morphine giving you more health. This is a game where you must made ends meet, make terrible decisions to feed your addiction or face the horrible withdrawals, and the wrath of the Association – deal drugs, or very bad things happen to people you love. It’s dark, it’s gloomy, it’s going to be hard to play through. It won’t have a happy ending. It’s a real life rendition of what those situations are actually like.&lt;/p&gt;
+
+&lt;h2 id=&quot;the_problem&quot;&gt;The Problem&lt;/h2&gt;
+
+&lt;p&gt;But I am not allowed to make it. Well, okay, I am, as an indie PC game perhaps, but if I wanted to put it on Steam? If I wanted to put it on the upcoming PS4? I can’t. Drugs, even if they are handled this way, are off limits, but screwing a hooker and murdering her (GTA)? Mowing down civilians (in a frankly unaffecting scene from Modern Warfare 2)? These are fine, but a realistic portrayl of drug dealing and the horrors that surround the scene, that is not.&lt;/p&gt;
+
+&lt;p&gt;I cannot understand societies take on this. For the record, I’m against the war on drugs; half the things I want to delve into in this game are caused by it directly. But I am not allowed to tackle this issue, if I want to see success? This is not going to just be an “issue” game: I want it to be gripping, exciting, and a massively memorable experience. I want it to be a good game. But I also want to say something: and I’m not allowed.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Transactly, Or I'm Crazy And Want To<br/>Make A Startup</title>
+        <link>http://jgirvin.com/2013/05/13/transactly/</link>
+        <pubDate>Mon, 13 May 2013 00:00:00 EST</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://jgirvin.com/2013/05/13/transactly/</guid>
+        <description>
+&lt;h2 id=&quot;what_is_it&quot;&gt;What Is It?&lt;/h2&gt;
+
+&lt;p&gt;Transactly will be an online personal finance application, that tracks what you spend, what your bills are, how much it all costs and when. Using this info, it will automatically create and adjust a savings plan on the fly, based on your spending and saving habits.&lt;/p&gt;
+
+&lt;p&gt;Want to go on a holiday, but are terrible at saving? No problem, Transactly will tell you exactly how much you &lt;em&gt;can&lt;/em&gt; spend each day, and how much needs to go into your bank.&lt;/p&gt;
+
+&lt;p&gt;It will also intelligently give you tips on what parts of your life you could save money on, from cutting down on your thrice-daily coffee, to looking at a more consistent phone plan (if you have a habit of going over!).&lt;/p&gt;
+
+&lt;p&gt;TECH DETAILS AHEAD: The plan is to create this as an online SaaS (software as a service) with an accompanying mobile application for ease of input for transaction details on the fly. It will use statistical data analysis (and perhaps machine learning, although I know very little about that!) for the “artificial intelligence”.&lt;/p&gt;
+
+&lt;h2 id=&quot;the_mvp&quot;&gt;The MVP&lt;/h2&gt;
+
+&lt;p&gt;As per Steve Blank’s “Lean Startup” method, a “Minimum Viable Product” would be the best way of deciding whether the market is ready (or willing) for such a product. It is the quickest way to see if an idea will fail, and due to having to try and make this work in my current geographical area not known for it’s startup scene (Brisbane, Australia), it’s something that I want to try.&lt;/p&gt;
+
+&lt;p&gt;So, the plan is this: I will build a simple front-end to show transactional data in a calendar-based format. The data it will show will be manually input by myself for the first few customers. The analysis for future earnings and spendings will be done by “hand” in Excel.&lt;/p&gt;
+
+&lt;p&gt;Here’s the kicker though: those first few (say, 5 to 10, although even 1 will be great) customers are going to have to &lt;em&gt;pay&lt;/em&gt; for the service. I’m unsure what business model is the right one for Transactly, but that’s something I’m going to have to find out. I’m thinking less than a cup of coffee per week: $10 a month will be a great start. Let’s call it $9.95, everyone loves the smaller number.&lt;/p&gt;
+
+&lt;h2 id=&quot;where_to_from_here&quot;&gt;Where To From Here?&lt;/h2&gt;
+
+&lt;p&gt;Well, that’s for the future, isn’t it. First things first: build what is needed for the MVP, and start testing the market. In addition: time to find out what the competitor space is like. I’m going up against the &lt;em&gt;Big Boys&lt;/em&gt; here: Mint, Quicken, etc. Will the “smart” analysis be the kicker? How much can I automate? How much friction can I remove from the personal finance process? Let’s find out.&lt;/p&gt;
+
+&lt;h2 id=&quot;hey_josh_im_interested&quot;&gt;Hey Josh, I’m Interested!&lt;/h2&gt;
+
+&lt;p&gt;Great! You’ll find my contact details at the bottom of this page. Send me an email/tweet, and let’s talk.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>My Own Cloud</title>
+        <link>http://jgirvin.com/2013/04/29/my-own-cloud/</link>
+        <pubDate>Mon, 29 Apr 2013 00:00:00 EST</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://jgirvin.com/2013/04/29/my-own-cloud/</guid>
+        <description>
+&lt;p&gt;I have moved away from the “cloud” as it is basically known, and towards the “own cloud”, if you will. What that means is that I host web applications that hold my data &lt;em&gt;myself&lt;/em&gt;, as much as possible. There are a number of reasons for this, but the primary one is of data ownership.&lt;/p&gt;
+
+&lt;p&gt;I want to own my own data. Sure, there are a lot of things on the web that I simply can’t have control over (such as what Facebook does with my data; what Google and other ad networks track) – but I can attempt to take back as much as possible. I’m not a big believer in ad-blocking, and will readily admit that advertising is needed to keep some of the web free: however, my personal data should be off-limits, and frankly there are a number of companies that I don’t trust to be respectful stewards of it.&lt;/p&gt;
+
+&lt;p&gt;Enough politicking however: Let’s get down to how I’ve done it!&lt;/p&gt;
+
+&lt;h4 id=&quot;the_vps&quot;&gt;The VPS&lt;/h4&gt;
+
+&lt;p&gt;Everything I use is hosted on a $20/month VPS from &lt;a href=&quot;http://intovps.com/&quot;&gt;IntoVPS&lt;/a&gt;. I have nothing but good things to say about them: their customer service is absolutely excellent, their prices are quite competetive, and the biggest kicker: I’m yet to find a VPS that gives you anywhere near as much storage space as they do for the money! 60GB is more than enough for my needs personally.&lt;/p&gt;
+
+&lt;h4 id=&quot;dropboxexchangegoogle_music&quot;&gt;Dropbox/Exchange/Google Music&lt;/h4&gt;
+
+&lt;p&gt;The piece of software I have chosen to replace these tools is a part of the KDE project, oddly enough. It’s a web app (written in PHP) called &lt;a href=&quot;http://owncloud.org/&quot;&gt;ownCloud&lt;/a&gt;, and honestly is quite powerful. It has great desktop sycning support through their client (&lt;em&gt;mirall&lt;/em&gt;), and mobile support is there.&lt;/p&gt;
+
+&lt;p&gt;The mobile applications for ownCloud do cost a few dollars, and I wish that the Android client was better, however I really like the idea of giving away the base software free and open source, and charging for a client. It means that if you were so inclined, you can go and write your own client with no issues; supporting the project is as simple as purchasing the mobile client. I think it’s a great trade-off.&lt;/p&gt;
+
+&lt;p&gt;Contacts and Calendar sync is done through CalDAV and CardDAV respectively, which the iPhone supports out of the box, and Android is easy enough to setup via a few small utilities in the Play Store. I also replace Exchange’s Notes sync with a free Notes plugin for ownCloud. Easily installed through the Admin console of the application, it’s what I use to write my blog drafts, keep recipes, and take random scribbles throughout the day! The best part of the Notes plugin is that the notes themselves are just Markdown &lt;code&gt;.txt&lt;/code&gt; files stored in the filesytem and can be synced and edited via the standard ownCloud client.&lt;/p&gt;
+
+&lt;p&gt;Google Music is replaced by the fact that ownCloud has an Ampache server built right in. You can either stream any music uploaded through the web application, or get any of the numerous Ampache clients for the device of your choice. Personally, I still use my iPod Nano more, but it’s nice to be able to listen to my music collection at work without stressing about having to cart my 40Gb of music around.&lt;/p&gt;
+
+&lt;p&gt;You can even use it as a Picasa replacement with the built-in picture gallery. It needs a bit of lovin’, but I plan on having a hack away at it in the future myself.&lt;/p&gt;
+
+&lt;p&gt;All files uploaded can be shared with a public or private URL if needed. It’s really quite excellent, and stable as a rock for me!&lt;/p&gt;
+
+&lt;h4 id=&quot;github&quot;&gt;GitHub&lt;/h4&gt;
+
+&lt;p&gt;So, I use Git for most of my software development, and GitHub is the way to go normally for collaboration. The problem is, I do a lot of private contracting and experimental work that I don’t really want others to see (yet!). So, how do you get around this? &lt;a href=&quot;http://gitlab.org/&quot;&gt;GitLab&lt;/a&gt; is my choice. It’s a Ruby on Rails application that replicates a lot of GitHubs features, and is very powerful. I’m not going to go into everything it can do here: check out the website. It was painful to install, but well worth it in my opinion.&lt;/p&gt;
+
+&lt;h4 id=&quot;whats_missing&quot;&gt;What’s Missing?&lt;/h4&gt;
+
+&lt;p&gt;Now, the big one I haven’t replaced yet is Google Apps for Domains (I’ve got the grandfathered free tier still). Of course, between ownCloud and a Dovecot/Postfix server, I should be sweet. Roundcube can even be integrated into ownCloud if needed. The problem is: I really suck at administrating email servers. It’s a curse.&lt;/p&gt;
+
+&lt;p&gt;OwnCloud really is an excellent tool, and GitLab is brilliant itself. Between these (and a boat load of plugins) I’ve reclaimed most of my data, and really not lost any of the features that use anyway. Give it a try, and let me know how you go on &lt;a href=&quot;https://twitter.com/girvo&quot;&gt;twitter&lt;/a&gt;, and maybe some more suggestions for other apps I should try myself!&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Hello, World!</title>
+        <link>http://jgirvin.com/2013/04/28/hello-world/</link>
+        <pubDate>Sun, 28 Apr 2013 00:00:00 EST</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://jgirvin.com/2013/04/28/hello-world/</guid>
+        <description>
+&lt;p&gt;Hi all! Welcome to my – Josh Girvin – blog. It’s running on my own VPS, with Jekyll powering the blog itself. I’ve started blogs on and off throughout the years, but due to getting involved with &lt;a href=&quot;http://www.elementaryos.org&quot;&gt;Elementary OS&lt;/a&gt;’s development lately, I thought it would be prudent to post up some ramblings on FOSS, Software Engineering, and Living in Brisbane Australia – as well as whatever else takes my fancy.&lt;/p&gt;
+
+&lt;p&gt;I’m a 22yo Software Engineer, working at &lt;a href=&quot;http://www.infoview.com.au&quot;&gt;InfoView&lt;/a&gt; in Brisbane, Australia. I work on web applications by day, but by night I hack away at applications on the Linux Desktop. Check out the &lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt; page to find out more about me.&lt;/p&gt;
+
+&lt;p&gt;Now, you’ll notice there are no comments. There is however a &lt;em&gt;Send to HackerNews&lt;/em&gt; link: If you think it’s worth discussing, either tweet me (&lt;a href=&quot;http://twitter.com/girvo&quot;&gt;@girvo&lt;/a&gt;) – or send it to HackerNews and comment there.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</description>
+      </item>
+    
+
+  </channel>
+</rss>
+
